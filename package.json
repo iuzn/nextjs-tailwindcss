@@ -1,0 +1,39 @@
+{
+  "name": "nextjs-tailwindcss-template",
+  "version": "1.0.0",
+  "description": "A template designed to quickly get Next JS and Tailwind CSS projects up and running.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iuzn/nextjs-tailwindcss-template.git"
+  },
+  "keywords": [
+    "nextjs",
+    "tailwindcss",
+    "react"
+  ],
+  "author": "Ibrahim Uzun",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iuzn/nextjs-tailwindcss-template/issues"
+  },
+  "homepage": "https://github.com/iuzn/nextjs-tailwindcss-template#readme",
+  "dependencies": {
+    "next": "^10.2.3",
+    "next-pwa": "^5.2.15",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@tailwindcss/jit": "^0.1.18",
+    "autoprefixer": "^10.2.6",
+    "postcss": "^8.3.0",
+    "prettier": "^2.2.1",
+    "tailwindcss": "^2.1.4"
+  }
+}

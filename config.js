@@ -1,0 +1,20 @@
+export const config = {
+  webSite: "",
+  name: "1",
+  description: "",
+  lang: "tr",
+  fonts: [{ fontName: "1" }, { fontName: "2" }],
+  themeColor: "#E1BE21",
+  backgroundColor: "#FFFFFF",
+  tileColor: "#2B5797",
+  maskIcon: "",
+  shortcutIcon: "",
+  appleTouchIcon: "", //180x180
+  icon16: "",
+  icon32: "",
+  icon70: "",
+  icon150: "",
+  icon310: "",
+  icon192: "",
+  icon512: "",
+};
