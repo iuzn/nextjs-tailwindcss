@@ -1,5 +1,3 @@
-const { boxShadow } = require("tailwindcss/defaultTheme");
-
 module.exports = {
   mode: 'jit',
   purge: [
