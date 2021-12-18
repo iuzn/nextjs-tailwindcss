@@ -19,10 +19,9 @@ a {
 }
 
 /* Tailwind CSS */
-
-@layer components {
-
+.container-center{
+  @apply flex flex-row justify-center gap-6 overflow-auto flex-wrap w-full mx-auto m-6
 }
-@variants group-hover, hover, focus, responsive {
-
+.button-shadow{
+  @apply p-3 px-5 rounded-xl text-neutral-700 bg-neutral-100 hover:bg-neutral-200 hover:text-neutral-800 dark:text-neutral-200 dark:bg-neutral-800 dark:hover:bg-neutral-700 dark:hover:text-neutral-100 shadow-lg shadow-neutral-500/40 active:shadow-neutral-500/25 active:scale-95 select-none transition-all
 }

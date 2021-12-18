@@ -1,10 +1,15 @@
-import Text from "../components/text";
+import {Buttons} from "../components/buttons";
 
 function HomePage() {
+
+
   return (
     <>
-      <Text>Welcome to Temlate!</Text>
-      <p className="">sdasdas</p>
+      <div className="flex justify-center items-center mx-auto w-full">
+        <div className="container-center">
+          <Buttons cellCount={2} rowCount={143} />
+        </div>
+      </div>
     </>
   );
 }

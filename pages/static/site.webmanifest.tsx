@@ -1,9 +1,9 @@
-import React, { Component } from 'react'
-import { config as x } from '../../config'
+import React, { Component } from "react";
+import { config as x } from "../../config";
 
 export default class SiteWebmanifest extends Component {
   static getInitialProps({ res }: { res: any }) {
-    res.setHeader('Content-Type', 'text/json')
+    res.setHeader("Content-Type", "text/json");
     res.write(`{
   "name": "${x.name}",
   "short_name": "${x.name}",
@@ -29,9 +29,9 @@ export default class SiteWebmanifest extends Component {
   "lang": "tr-TR",
   "orientation": "portrait-primary",
   "prefer_related_applications": true,
-  "manifestUrl": "https://${x.webSite}/static/site.webmanifest",
+  "manifestUrl": "https://${x.webSite}/static/site.webmanifest"
 }
-`)
-    res.end()
+`);
+    res.end();
   }
 }

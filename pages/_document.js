@@ -14,7 +14,7 @@ class MyDocument extends Document {
           <link rel="preconnect" href={x.webSite} />
           {x.fonts.map((font) => {
             return (
-              <link href={font.fontName} rel="stylesheet" key={font.fontName} />
+              <link href={font.fontLink} rel="stylesheet" key={font.fontName} />
             );
           })}
           <meta
@@ -46,9 +46,12 @@ class MyDocument extends Document {
           <meta name="msapplication-tap-highlight" content="no" />
           <meta name="theme-color" content={x.themeColor} />
         </Head>
-        <body>
-          <Main />
-          <NextScript />
+        <body
+            className="bg-white text-gray-600 antialiased
+      dark:bg-gray-900 dark:text-gray-400"
+        >
+        <Main />
+        <NextScript />
         </body>
       </Html>
     );
