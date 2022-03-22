@@ -1,10 +1,11 @@
-export const Buttons = ({
-  cellCount,
-  rowCount,
-}: {
+import type { PropsWithChildren } from "react";
+
+export type WithChildren<T = {}> = T & PropsWithChildren<{}>;
+interface ButtonsProps extends WithChildren {
   cellCount: number;
   rowCount: number;
-}) => {
+}
+export const Buttons = ({ cellCount, rowCount, children }: ButtonsProps) => {
   return (
     <>
       {Array(rowCount)
@@ -20,7 +21,7 @@ export const Buttons = ({
                       key={rowIndex + "-" + cellIndex}
                       className="button-shadow"
                     >
-                      Welcome to Template!
+                      {children}
                     </button>
                   );
                 })}
