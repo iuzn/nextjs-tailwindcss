@@ -3,7 +3,7 @@ export const Buttons = ({ cellCount, rowCount }) => {
     .fill()
     .map((i, rowIndex) => {
       return (
-        <div key={rowIndex} className="flex flex-col gap-6">
+        <div key={rowIndex} className="flex flex-col gap-6 ">
           {Array(cellCount)
             .fill()
             .map((i, cellIndex) => {
