@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { config as x } from "../../config";
+import { config as x } from "../../site.config";
 
 export default class SiteWebmanifest extends Component {
   static getInitialProps({ res }: { res: any }) {

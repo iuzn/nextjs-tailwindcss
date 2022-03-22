@@ -1,8 +1,6 @@
-import {Buttons} from "../components/buttons";
+import {Buttons} from "@/components/buttons";
 
 function HomePage() {
-
-
   return (
     <>
       <div className="flex justify-center items-center mx-auto w-full">
